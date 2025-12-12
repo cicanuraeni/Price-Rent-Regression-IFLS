@@ -45,9 +45,9 @@ Proyek ini disusun untuk menunjukkan kemampuan dalam:
 ### **1. Estimasi Model Awal**
 Model dihitung menggunakan formula OLS (Ordinary Least Squares) secara manual dalam R:
 
-\[
+$$
 \hat{\beta} = (X'X)^{-1}X'Y
-\]
+$$
 
 ### **2. Uji Asumsi Klasik & Solusi**
 
@@ -69,9 +69,10 @@ Metode eliminasi mundur diterapkan pada model Log-Linear untuk menghapus variabe
 
 Model akhir terdiri dari variabel-variabel yang memberikan kontribusi signifikan, dengan $R^2 = 0.1906$.
 
-\[
+$$
 \log(Y) = 4.6296 - 0.0669X_{4.2} + 0.1021X_{5.1} + 0.0605X_{6.1} + 0.1293X_{6.2} + 0.1932X_{7} + 0.0492X_{10} + 0.1581\log(X_{12}) + 0.3376\log(X_{13}) - 0.1113X_{14.1} - 0.1536X_{14.3} + 0.0632X_{15.1} - 0.0864X_{16.3}
-\]
+$$
+
 
 ## Insight Utama (Interpretasi Koefisien)
 
